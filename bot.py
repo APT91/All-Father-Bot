@@ -2,7 +2,7 @@ import os, sqlite3, discord, colorama
 from discord.ext import commands
 
 #Configure Bot Information
-admins = [1133911317397377034]
+admins = ['YOUR DISCORD ID HERE']
 token = 'YOUR BOT TOKEN'
 bot = commands.Bot(command_prefix='?', intents=discord.Intents.all(), help_command=None)
 
